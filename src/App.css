@@ -4,3 +4,40 @@
 	padding: 2rem;
 	text-align: center;
 }
+
+.test {
+	width: 150px;
+	height: 50px;
+	border: 2px solid limegreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 200ms;
+
+	&:hover {
+		background-color: forestgreen;
+	}
+	&:active {
+		font-size: 2rem;
+	}
+}
+
+.new {
+	font-size: 3rem;
+	font-weight: 800;
+
+	&.newColor {
+		color: hotpink;
+		animation: gorilla 2s;
+	}
+}
+
+@keyframes gorilla {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(100px);
+	}
+}
