@@ -41,3 +41,9 @@
 		transform: translateX(100px);
 	}
 }
+
+.width {
+	border: 2px solid lightsalmon;
+	height: 50px;
+	transition: width 200ms;
+}
